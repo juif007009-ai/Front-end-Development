@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <style>
+        form {
+            background: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        input[type="radio"] {
+            margin: 0 10px 0 0;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Student Details</h1>
+        <label for="name">Name:</label> <input type="text" placeholder="Eg: Antony S"><br>
+        <label for="email">Email:</label> <input type="email" placeholder="Eg: antony@gmail.com"><br>
+        <label for="age">Age:</label> <input type="number" placeholder="Eg: 17"><br>
+        <label for="Phone">Phone Number:</label><input type="number" name="Phone" placeholder="Eg: 1234567890 "><br>
+        <label for="dob">Date of Birth:</label><input type="text" placeholder="Eg: 6th Feb 2008"><br>
+        Male<input type="radio" name="gender" id="male">
+        Female<input type="radio" name="gender" id="female"><br><br>
+        Grade:</label>
+        <select>
+            <option>6th</option>
+            <option>7th</option>
+            <option>8th</option>
+            <option>9th</option>
+            <option>10th</option>
+            <option>11th</option>
+            <option>12th</option>
+        </select><br>   <br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
