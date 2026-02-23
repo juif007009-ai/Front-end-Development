@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+
+        <form onsubmit="return login()">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+
+            // Simple validation
+            if(user === "admin" && pass === "1234") {
+                alert("Login Successful!");
+                window.location.href = "landing.html"; // Redirect to landing page
+                return false; // prevent default form submission
+            } else {
+                alert("Invalid Username or Password!");
+                return false;
+            }
+        }
+    </script>
+
+</body>
+</html>
