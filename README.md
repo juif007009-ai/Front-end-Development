@@ -5,3 +5,5 @@ demo for personal information https://juif007009-ai.github.io/Front-end-Developm
 https://juif007009-ai.github.io/Front-end-Development/notice.html
 <img width="1915" height="970" alt="Screenshot 2026-02-16 100045" src="https://github.com/user-attachments/assets/d6d22766-cfff-4477-a088-e3081dd96af7" />
 <img width="352" height="361" alt="image" src="https://github.com/user-attachments/assets/e644a137-76f3-4843-b3f3-3855072076c3" />
+demo for navbar https://juif007009-ai.github.io/Front-end-Development/navbar.html
+<img width="533" height="221" alt="image" src="https://github.com/user-attachments/assets/2031d5c1-7c4f-4a96-9f20-c64f5ee278c6" />
