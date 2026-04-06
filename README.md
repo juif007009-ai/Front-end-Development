@@ -9,3 +9,6 @@ demo for navbar https://juif007009-ai.github.io/Front-end-Development/navbar.htm
 <img width="533" height="221" alt="image" src="https://github.com/user-attachments/assets/2031d5c1-7c4f-4a96-9f20-c64f5ee278c6" />
 mo for hover https://juif007009-ai.github.io/Front-end-Development/hover.html
 <img width="1919" height="1079" alt="Screenshot 2026-03-26 151909" src="https://github.com/user-attachments/assets/5a749199-7797-490c-895a-ec08c8e8007b" />
+
+demo for regisration form https://juif007009-ai.github.io/Front-end-Development/Calculator.html
+<img width="1021" height="665" alt="image" src="https://github.com/user-attachments/assets/fed15ca1-519e-48ed-ad8b-9540e3c02f86" />
