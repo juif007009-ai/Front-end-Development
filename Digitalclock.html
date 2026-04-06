@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Clock</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background-color: black;
+            color: lime;
+        }
+        #clock {
+            font-size: 50px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Digital Clock</h2>
+
+<div id="clock"></div>
+
+<script>
+function showTime() {
+    let date = new Date();
+    
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+
+    // Add zero if needed
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    let time = hours + ":" + minutes + ":" + seconds;
+
+    document.getElementById("clock").innerHTML = time;
+}
+
+// Update every second
+setInterval(showTime, 1000);
+</script>
+
+</body>
+</html>
