@@ -12,3 +12,7 @@ mo for hover https://juif007009-ai.github.io/Front-end-Development/hover.html
 
 demo for regisration form https://juif007009-ai.github.io/Front-end-Development/Calculator.html
 <img width="1021" height="665" alt="image" src="https://github.com/user-attachments/assets/fed15ca1-519e-48ed-ad8b-9540e3c02f86" />
+
+demo for regisration form https://juif007009-ai.github.io/Front-end-Development/Digitalclock.html
+<img width="885" height="453" alt="image" src="https://github.com/user-attachments/assets/dea9d2c1-4f82-4b1e-a41a-1c0853a4cedd" />
+
